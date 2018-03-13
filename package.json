@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  },
+  "scripts": {
+    "watch": "./node_modules/webpack/bin/webpack.js --mode development --progress --watch",
+    "build": "./node_modules/webpack/bin/webpack.js --mode production --progress",
+    "server": "crystal run ./src/creact.cr",
+    "s": "crystal run ./src/creact.cr"
+  }
+}

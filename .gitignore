@@ -1,0 +1,7 @@
+/doc/
+/lib/
+/bin/
+/.shards/
+/node_modules
+/public/js/bundle.js
+yarn-error.log
